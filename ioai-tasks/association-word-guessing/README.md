@@ -31,7 +31,6 @@ To improve generalization, I implemented a **"negative training" strategy** by:
 
 - Sentence transformers (`all-MiniLM-L6-v2`)
 - Cosine similarity ranking over candidate choices
-- Custom data pipeline using `InputExample` format from `sentence-transformers`
 - Hard negative mining based on model's most confident wrong guesses
 - TQDM for progress monitoring
 
