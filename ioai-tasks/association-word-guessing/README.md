@@ -39,7 +39,7 @@ To improve generalization, I implemented a **"negative training" strategy** by:
 
 ## Files
 
-association-word-guessing.ipynb: Full notebook with data loading, training loop, and evaluation
+'association-word-guessing.ipynb': Full notebook with data loading, training loop, and evaluation
 
 ## Dataset
 The dataset and task were part of a private stage of IOAI and are no longer publicly available.
