@@ -17,7 +17,7 @@ Many features showed **time-dependent patterns**, with standard deviation varyin
 
 ## Files
 
-- `imputation.ipynb`: Main notebook with full code, experiments, and comments
+- `tricy-table-data.ipynb`: Main notebook with full code, experiments, and comments
 
 ## Dataset
 
