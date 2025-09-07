@@ -6,7 +6,7 @@ The dataset contains numeric features and timestamp-like fields (`day`, `hour`, 
 
 ## Key Idea
 
-Many features showed **time-dependent patterns**, with standard deviation varying across `(day, hour)` groups. I leveraged this structure to impute missing values **only in the test set**, using per-hour group means.
+Many features showed **time-dependent patterns**, with standard deviation varying across `(day, hour)` groups. I leveraged this structure to impute missing values in the test set, using per-hour group means.
 
 ## Techniques Used
 
