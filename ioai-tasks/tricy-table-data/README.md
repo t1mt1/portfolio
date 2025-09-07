@@ -2,10 +2,7 @@
 
 This project explores a regression task with heavily damaged and incomplete tabular data, tackled during my preparation for the International Olympiad in Artificial Intelligence (IOAI).
 
-The dataset contains numeric features and timestamp-like fields (`day`, `hour`, `minute`). The evaluation metric is a modified RMSE:  
-\[
-\text{Score} = \left( \frac{1}{n} \sum_{i=1}^{n} (\text{true}_i - \text{pred}_i)^2 \right)^{1/4}
-\]
+The dataset contains numeric features and timestamp-like fields (`day`, `hour`, `minute`). The evaluation metric is squared RMSE.
 
 ## 🧠 Key Idea
 
