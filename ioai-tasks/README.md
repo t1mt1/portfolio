@@ -1,6 +1,6 @@
 # IOAI Task Portfolio
 
-This folder contains some machine learning projects I completed while preparing for the International Olympiad in Artificial Intelligence (IOAI). Each task represents a different problem domain, model type, and engineering challenge.
+This folder contains some machine learning projects I completed while preparing for the International Olympiad in Artificial Intelligence (IOAI). Each task represents a different problem domain.
 
 ### 📁 Projects
 
