@@ -6,5 +6,5 @@ This folder contains some machine learning projects I completed while preparing 
 
 - [`tricy-table-data`](./tricy-table-data): Imputing missing tabular data using time-dependent statistics and LightGBM.
 - [`radar`](./radar): U-Net segmentation on radar heatmaps to detect human presence.
-- [`association-word-guessing`](./association-word-guessing): NLP task with a twist: negative training to correct worst-case guesses.
+- [`association-word-guessing`](./association-word-guessing): NLP task on word guessing with negative training to correct worst-case guesses.
 
