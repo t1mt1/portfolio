@@ -34,8 +34,7 @@ If no target is detected, the drone maintains a hovering/slow forward motion.
 Install dependencies:  
 ```bash
 pip install djitellopy ultralytics opencv-python torch
-
-
+```
 
 Run the navigation script:
 ```bash
