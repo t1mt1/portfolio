@@ -39,5 +39,5 @@ pip install djitellopy ultralytics opencv-python torch
 Run the navigation script:
 ```bash
 python drone_navigation.py
-
+```
 The drone will take off, search for the target, and navigate toward it.
