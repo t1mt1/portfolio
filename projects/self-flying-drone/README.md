@@ -6,10 +6,8 @@ This project implements a simple autonomous drone navigation system using a **DJ
 
 ## Features  
 - **Real-time object detection** using YOLOv8  
-- **Autonomous navigation** toward a chosen target (e.g., a bottle)  
+- **Autonomous navigation** toward a chosen target (a bottle)  
 - **PID-inspired control** of drone movement (based on errors in X, Y, Z)  
-- **Failsafe behavior**: if no target is detected, the drone hovers/slowly moves forward  
-- **Landing trigger** once the drone is close enough to the target  
 
 ---
 
@@ -36,3 +34,11 @@ If no target is detected, the drone maintains a hovering/slow forward motion.
 Install dependencies:  
 ```bash
 pip install djitellopy ultralytics opencv-python torch
+
+
+
+Run the navigation script:
+```bash
+python drone_navigation.py
+
+The drone will take off, search for the target, and navigate toward it.
