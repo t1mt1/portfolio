@@ -14,7 +14,7 @@ The project uses only standard scientific Python libraries:\
 
 **Numerical method**\
 Space is discretized as: \
-$x_j = x_{min} + j\Delta x, \space j = 0, 1, ..., J-1,$
+$x_j = x_{min} + j\Delta x, \space j = 0, 1, ..., J-1,$ \
 Time is discretized as: \
 $t_n = n \Delta t$ \
 Spatial derivative is approximated with a second-order finite difference: \
@@ -36,7 +36,7 @@ c_1 & c_2 & c_1 & \ddots & \vdots \\
 0   & c_1 & c_2 & \ddots & 0 \\
 \vdots & \ddots & \ddots & \ddots & c_1 \\
 0 & \cdots & 0 & c_1 & c_2
-\end{pmatrix}, \space
+\end{pmatrix}$, $\space
 B = \begin{pmatrix}
 c_3 & -c_1 & 0   & \cdots & 0 \\
 -c_1 & c_3 & -c_1 & \ddots & \vdots \\
