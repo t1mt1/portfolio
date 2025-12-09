@@ -63,25 +63,25 @@ Below are some of the animations produced using the solver.
 For a free particle, the potential is zero: \
 $V(x)=0$ \
 The wave packet travels and spreads: \
-![description](./free_particle.gif)
+![description](./gifs/free_particle.gif)
 
 *Harmonic Oscillator* \
 Potential: \
 $V(x) = kx^2$ \
 The packet oscillates in the potential well and periodically squeezes/spreads: \
-![description](./harmonic_oscillator.gif) \
+![description](./gifs/harmonic_oscillator.gif) \
 The eigenstates of the harmonic oscillator are represented by the following function: 
 
 $\frac{1}{\sqrt{2^n n!}}(\frac{m \omega}{\pi \hbar})^\frac{1}{4} H_n (\sqrt{\frac{m \omega}{\hbar}}x) \exp(-\frac{m \omega x^2}{2 \hbar})$ 
 
 First few eigenstates: \
-![description](./eigenstate0.gif)
-![description](./eigenstate1.gif)
-![description](./eigenstate2.gif)
+![description](./gifs/eigenstate0.gif)
+![description](./gifs/eigenstate1.gif)
+![description](./gifs/eigenstate2.gif)
 
 *Barrier Tunneling* \
 When the wave packet encounters a potential barrier, part of it reflects and part “tunnels” through:
-![description](./barrier_tunneling.gif)
+![description](./gifs/barrier_tunneling.gif)
 
 
 
