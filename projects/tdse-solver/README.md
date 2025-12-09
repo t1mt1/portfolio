@@ -4,10 +4,8 @@ A simple numerical solver for the 1D time-dependent Schrödinger equation using 
 The goal of the project is mostly educational — to experiment with wave packets, potentials, and time evolution, and to generate animations of quantum behavior.
 
 The main equation solved is:
-$
-i\hbar \frac{\partial \Psi}{\partial t} 
-= -\frac{\hbar^2}{2m} \frac{\partial^2 \Psi}{\partial x^2} + V(x)\Psi
-$
+$i\hbar \frac{\partial \Psi}{\partial t} 
+= -\frac{\hbar^2}{2m} \frac{\partial^2 \Psi}{\partial x^2} + V(x)\Psi$
 The solver also includes a few example potentials and scripts for visualizing how different wave packets evolve.
 
 **Installation** \
