@@ -39,13 +39,15 @@ Carrying over n and n+1 terms to different sides we get the following equation:
 
 $i \hbar \frac{\Psi_j^{n+1}}{\Delta t} - \frac{1}{2} \left( -\frac{\hbar^2}{2m} \frac{\Psi_{j+1}^{n+1} - 2 \Psi_j^{n+1} + \Psi_{j-1}^{n+1}}{(\Delta x)^2} + V_j \Psi_j^{n+1} \right) = i \hbar \frac{\Psi_j^n}{\Delta t} + \frac{1}{2} \left( -\frac{\hbar^2}{2m} \frac{\Psi_{j+1}^{n} - 2 \Psi_j^{n} + \Psi_{j-1}^{n}}{(\Delta x)^2} + V_j \Psi_j^n \right)$ 
 
-This can be rewritten in matrix form: 
+This can be rewritten in matrix form:
 
 $A\Phi^{n+1} = B\Phi^{n}$ 
 
 where the matrices A and B have the tridiagonal pattern 
+
 ![Matrices](matrices.png) 
-where \
+
+where 
 
 $c_1=\frac{\hbar^2}{2m}\lambda, \space c_2=i\hbar -\frac{\hbar^2}{m}\lambda - \frac{V\Delta t}{2}, \space c_3=i\hbar +\frac{\hbar^2}{m}\lambda + \frac{V\Delta t}{2}, \space \lambda=\frac{\Delta t}{2\Delta x^2}$
 
