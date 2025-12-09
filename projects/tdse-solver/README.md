@@ -30,20 +30,7 @@ $i \hbar \frac{\Psi_j^{n+1}}{\Delta t} - \frac{1}{2} \left( -\frac{\hbar^2}{2m} 
 This can be rewritten in matrix form: \
 $A\Phi^{n+1} = B\Phi^{n}$ \
 where the matrices A and B have the tridiagonal pattern \
-$A = \begin{pmatrix}
-c_2 & c_1 & 0   & \cdots & 0 \\
-c_1 & c_2 & c_1 & \ddots & \vdots \\
-0   & c_1 & c_2 & \ddots & 0 \\
-\vdots & \ddots & \ddots & \ddots & c_1 \\
-0 & \cdots & 0 & c_1 & c_2
-\end{pmatrix}$, $\space
-B = \begin{pmatrix}
-c_3 & -c_1 & 0   & \cdots & 0 \\
--c_1 & c_3 & -c_1 & \ddots & \vdots \\
-0   & -c_1 & c_3 & \ddots & 0 \\
-\vdots & \ddots & \ddots & \ddots & -c_1 \\
-0 & \cdots & 0 & -c_1 & c_3
-\end{pmatrix},$ \
+![Matrices](matrices.png) \
 where \
 $c_1=\frac{\hbar^2}{2m}\lambda, \space c_2=i\hbar -\frac{\hbar^2}{m}\lambda - \frac{V\Delta t}{2}, \space c_3=i\hbar +\frac{\hbar^2}{m}\lambda + \frac{V\Delta t}{2}, \space \lambda=\frac{\Delta t}{2\Delta x^2}$ \
 
