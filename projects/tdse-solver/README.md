@@ -32,7 +32,7 @@ $A\Phi^{n+1} = B\Phi^{n}$ \
 where the matrices A and B have the tridiagonal pattern \
 ![Matrices](matrices.png) \
 where \
-$c_1=\frac{\hbar^2}{2m}\lambda, \space c_2=i\hbar -\frac{\hbar^2}{m}\lambda - \frac{V\Delta t}{2}, \space c_3=i\hbar +\frac{\hbar^2}{m}\lambda + \frac{V\Delta t}{2}, \space \lambda=\frac{\Delta t}{2\Delta x^2}$ \
+$c_1=\frac{\hbar^2}{2m}\lambda, \space c_2=i\hbar -\frac{\hbar^2}{m}\lambda - \frac{V\Delta t}{2}, \space c_3=i\hbar +\frac{\hbar^2}{m}\lambda + \frac{V\Delta t}{2}, \space \lambda=\frac{\Delta t}{2\Delta x^2}$
 
 
 Initial wave function is presented by the gaussian wave packet: \
