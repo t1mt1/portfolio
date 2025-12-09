@@ -67,9 +67,9 @@ The wave packet travels and spreads: \
 
 *Harmonic Oscillator* \
 Potential: \
-$V(x) = kx^2$
-The packet oscillates in the potential well and periodically squeezes/spreads:
-![description](./harmonic_oscillator.gif)
+$V(x) = kx^2$ \ 
+The packet oscillates in the potential well and periodically squeezes/spreads: \
+![description](./harmonic_oscillator.gif) \
 The eigenstates of the harmonic oscillator are represented by the following function: \
 
 $\frac{1}{\sqrt{2^n n!}}(\frac{m \omega}{\pi \hbar})^\frac{1}{4} H_n (\sqrt{\frac{m \omega}{\hbar}}x) \exp(-\frac{m \omega x^2}{2 \hbar})$ \
