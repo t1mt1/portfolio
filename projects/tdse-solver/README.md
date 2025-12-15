@@ -1,7 +1,7 @@
 ***1D Time-Dependent Schrödinger Equation Solver***
 
 A simple numerical solver for the 1D time-dependent Schrödinger equation using finite-difference methods.
-The goal of the project is mostly educational — to experiment with wave packets, potentials, and time evolution, and to generate animations of quantum behavior.
+The goal of the project is mostly educational, to experiment with wave packets, potentials, and time evolution, and to generate animations of quantum behavior.
 
 The main equation solved is: 
 
